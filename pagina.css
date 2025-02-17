@@ -205,7 +205,6 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-    /* Ajustes no menu */
     header ul {
         flex-direction: column;
         align-items: center;
@@ -221,7 +220,6 @@ a:-webkit-any-link {
         margin-top: 10px;
     }
 
-    /* Ajustes no conteúdo principal */
     main .left, main .right {
         width: 100%;
         float: none;
@@ -259,8 +257,6 @@ a:-webkit-any-link {
         width: 100%;
         height: auto;
     }
-
-    /* Ajustes no rodapé */
     footer {
         flex-direction: column;
         align-items: center;
@@ -278,7 +274,6 @@ a:-webkit-any-link {
 }
 
 @media screen and (max-width: 480px) {
-    /* Ajustes extras para telas muito pequenas */
     main h1 {
         font-size: 22px;
     }
@@ -286,6 +281,9 @@ a:-webkit-any-link {
     main h3 {
         font-size: 20px;
     }
+    .imagem-container img{
+        max-width: 250px;
+        width: 100%}
 
     footer li, footer a, footer h3 {
         font-size: 12px; 
