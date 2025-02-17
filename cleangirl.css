@@ -88,7 +88,10 @@ div .lista1 {
     .imagem-inicio {
         height: 100px;
     }
-
+    .imagem-container img{
+        heigth:auto;
+        width: 250px}
+    }
     div .lista1 {
         font-size: 13px;
         margin-left: 5px;
