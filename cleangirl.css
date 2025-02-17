@@ -78,18 +78,17 @@ div .lista1 {
     }
 
     .flex-imagem {
-        height: 100px;
+        height: 80px;
     }
 
     .estilo-imagem {
-        height: 100px;
+        height: 80px;
     }
 
     .imagem-inicio {
-        height: 100px;
+        height: 80px;
     }
     .imagem-container img{
-        heigth:auto;
         width: 250px}
     }
     div .lista1 {
