@@ -205,69 +205,89 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 @media screen and (max-width: 768px) {
+    /* Ajustes no menu */
     header ul {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
+
     header li {
-      font-size: 20px; 
-      margin: 5px 0;
+        font-size: 20px; 
+        margin: 5px 0;
     }
+
     header .inicio-container img {
-      width: 150px;
-      margin-top: 10px;
+        width: 150px;
+        margin-top: 10px;
     }
+
+    /* Ajustes no conteúdo principal */
     main .left, main .right {
-      width: 100%;
-      float: none;
-      margin: 10px 0;
+        width: 100%;
+        float: none;
+        margin: 10px 0;
     }
+
     main h1 {
-      font-size: 30px;
+        font-size: 30px;
     }
+
     main h3 {
-      font-size: 24px;
+        font-size: 24px;
     }
+
     main p {
-      font-size: 16px;
-      margin: 15px;
+        font-size: 16px;
+        margin: 15px;
     }
+
     main .imagem-container {
-      max-width: 100%;
-      margin-left: 0;
+        max-width: 100%;
+        margin-left: 0;
     }
+
     main .imagemmov {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
+
     main .movimento {
-      flex-direction: column;
+        flex-direction: column;
     }
+
     main .imagem-container img {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
+
+    /* Ajustes no rodapé */
     footer {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
+
     footer .left, footer .right {
-      width: 100%;
-      float: none;
-      margin: 10px 0;
+        width: 100%;
+        float: none;
+        margin: 10px 0;
     }
+
     footer li, footer a, footer h3 {
-      font-size: 14px;
+        font-size: 14px;
     }
-  }
-  @media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 480px) {
+    /* Ajustes extras para telas muito pequenas */
     main h1 {
-      font-size: 22px;
+        font-size: 22px;
     }
+
     main h3 {
-      font-size: 20px;
+        font-size: 20px;
     }
+
     footer li, footer a, footer h3 {
-      font-size: 12px; 
+        font-size: 12px; 
     }
-  }
+}
